@@ -12,4 +12,4 @@ class RegionAdmin(admin.ModelAdmin):
 
 @admin.register(Measurements)
 class MeasurementsAdmin(admin.ModelAdmin):
-    list_display = ['id','region','temperagit ture','humidity','created_at']
+    list_display = ['id','region','temperature','humidity','created_at']
